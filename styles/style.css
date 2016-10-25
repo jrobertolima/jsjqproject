@@ -26,6 +26,7 @@ h1{
 	background-color: #D3D3D3;
 	border-radius: 5px;
 	border: 1px solid gray;	
+	cursor: pointer;
 }
 
 #button p {
@@ -43,6 +44,4 @@ h1{
 	display:inline-block;
 	background-color: #A7667A;
 	margin:auto;
-//	border: none;
-//	position: relative;
 }
