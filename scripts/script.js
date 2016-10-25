@@ -12,10 +12,10 @@ function fillYellowed(){
 }	
 */	for(var i = 0; i < size; i++){
 		for (var j = 0; j < size; j++){
-			$(".wrapper".append($(".pixels"));
+//			$(".wrapper".append($(".pixels"));
 		}
 	}
-//	alert("Saindo FILL "+ i);
+	alert("Saindo FILL "+ i);
 	
 }
 
