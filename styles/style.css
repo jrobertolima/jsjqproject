@@ -41,7 +41,8 @@ h1{
 .pixels{
 	width: 9px;
 	height: 9px;
-	display:inline-block;
+//	display:block;
 	background-color: #A7667A;
-	margin:auto;
+	margin:12px;
+//	position: relative;
 }
