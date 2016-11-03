@@ -3,15 +3,22 @@ body{
 	font-size: 12px;
 }
 
-.wrapper{
+.hoverArea{
 	width: 540px;
-	height: 540px;
+//	height: 540px;
 	margin: auto;
 	background-color: #FFFFE0;
 	border-radius: 5px;
 	border: 2px solid gray;
+	overflow: auto;
 }
-
+/*
+.sketchpad {
+	width: 1000px;
+	margin: 15px auto;
+	overflow: auto;
+}
+*/
 h1{
 	text-align: center;
 }
@@ -39,10 +46,41 @@ h1{
 
 
 .pixels{
-	width: 9px;
-	height: 9px;
-//	display:block;
+//	width: 9px;
+//	height: 9px;
+	float: left;
+	display:inline-block;
 	background-color: #A7667A;
-	margin:12px;
-//	position: relative;
+//	margin:auto;
 }
+/*
+.square {
+	float: left;
+	background-color: black;
+	display: inline-block;
+}
+*/
+
+/*
+
+#options {
+	width: 90%;
+	height: 120px;
+	margin: 15px auto;
+	background-color: #CDCDCD;
+	padding-top: 5px;
+	text-align: center;
+	border-radius: 26px;
+}
+
+#options h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+form {
+	display: inline-block;
+}
+
+
+*/
