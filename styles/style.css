@@ -5,82 +5,52 @@ body{
 
 .hoverArea{
 	width: 540px;
-//	height: 540px;
 	margin: auto;
 	background-color: #FFFFE0;
 	border-radius: 5px;
 	border: 2px solid gray;
 	overflow: auto;
 }
-/*
-.sketchpad {
-	width: 1000px;
-	margin: 15px auto;
-	overflow: auto;
-}
-*/
-h1{
+
+h1, h2{
 	text-align: center;
 }
 
-#button{
-	width: 80px;
+#button, #buttonRandom{
+	width: 90px;
 	height: 30px;
-	display: block;
+	display: inline-block;
 	margin:auto;
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	background-color: #D3D3D3;
 	border-radius: 5px;
-	border: 1px solid gray;	
+	border: 1px solid black;	
 	cursor: pointer;
 }
 
-#button p {
-    margin: 0;
+div > p {
+    margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%);
+}
 
 
 .pixels{
-//	width: 9px;
-//	height: 9px;
 	float: left;
 	display:inline-block;
 	background-color: #A7667A;
-//	margin:auto;
 }
-/*
-.square {
-	float: left;
-	background-color: black;
-	display: inline-block;
-}
-*/
-
-/*
 
 #options {
-	width: 90%;
+	width: 60%;
 	height: 120px;
 	margin: 15px auto;
 	background-color: #CDCDCD;
 	padding-top: 5px;
 	text-align: center;
-	border-radius: 26px;
+	border-radius: 15px;
 }
-
-#options h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-form {
-	display: inline-block;
-}
-
-
-*/
