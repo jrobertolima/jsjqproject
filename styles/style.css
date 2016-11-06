@@ -1,22 +1,24 @@
+
+h1, h2{
+	text-align: center;
+}
 body{
 	font-family: arial, sans-serif;
 	font-size: 12px;
 }
 
-.hoverArea{
-	width: 540px;
-	margin: auto;
-	background-color: #FFFFE0;
-	border-radius: 5px;
-	border: 2px solid gray;
-	overflow: auto;
-}
-
-h1, h2{
+/* Selection area */
+#options {
+	width: 60%;
+	height: 120px;
+	margin: 15px auto;
+	background-color: #CDCDCD;
+	padding-top: 5px;
 	text-align: center;
+	border-radius: 15px;
 }
 
-#button, #buttonRandom{
+.button {
 	width: 90px;
 	height: 30px;
 	display: inline-block;
@@ -38,6 +40,16 @@ div > p {
     transform: translate(-50%, -50%);
 }
 
+/* Play area */
+
+.hoverArea{
+	width: 540px;
+	margin: auto;
+	background-color: #FFFFE0;
+	border-radius: 5px;
+	border: 2px solid gray;
+	overflow: auto;
+}
 
 .pixels{
 	float: left;
@@ -45,12 +57,3 @@ div > p {
 	background-color: #A7667A;
 }
 
-#options {
-	width: 60%;
-	height: 120px;
-	margin: 15px auto;
-	background-color: #CDCDCD;
-	padding-top: 5px;
-	text-align: center;
-	border-radius: 15px;
-}
